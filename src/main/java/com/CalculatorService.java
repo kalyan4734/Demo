@@ -20,4 +20,19 @@ public class CalculatorService {
 	public static int  multiply() {
 		return 10*20;    // returns a interger
 	}
+	
+	@GetMapping("/mod")
+	public static int  mod() {
+		return 20%10;   
+	}
+	
+	@GetMapping("/sub")
+	public static int  sub() {
+		return 20-10;   
+	}
+	
+	@GetMapping("/div")
+	public static int  div() {
+		return 20/10;   
+	}
 }
