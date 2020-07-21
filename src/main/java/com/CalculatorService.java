@@ -8,7 +8,7 @@ public class CalculatorService {
 	
 	@GetMapping("/hello")
 	public  static String sayHello() {
-		return "Hello World";
+		return "Hello World"; // returns a string
 	}
 	
 	@GetMapping("/sum")
