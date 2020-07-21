@@ -13,7 +13,7 @@ public class CalculatorService {
 	
 	@GetMapping("/sum")
 	public static int  sum() {
-		return 10+20;    // returns sum in integer
+		return 10+20;
 	}
 
 	@GetMapping("/multiply")
