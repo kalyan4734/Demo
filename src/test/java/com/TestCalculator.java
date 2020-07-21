@@ -22,4 +22,19 @@ public class TestCalculator {
 		Assertions.assertEquals(200, CalculatorService.multiply());
 	}
 	
+	@Test
+	public void testMod() {
+		
+		Assertions.assertEquals(0, CalculatorService.mod());
+	}
+	@Test
+	public void testSub() {
+		
+		Assertions.assertEquals(10, CalculatorService.sub());
+	}
+	@Test
+	public void testDiv() {
+		
+		Assertions.assertEquals(2, CalculatorService.div());
+	}
 }
